@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top-bar{
+    display: flex;
+    margin: 20px 30px 30px 100px;
+    justify-content: space-between;
+}
+.func{
+    margin-left: 500px;
+}
+.functi{
+    margin-right: 50px;
+    color: #C7C7C7;
+}
+#button1{
+    color: #818181;
+    border: 2px solid #818181;
+    padding: 7px 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #C7C7C7;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.content{
+    background-color: #2C2640;
+    height: 500px;
+    margin-bottom: 400px;
+
+}
+
+.family{
+    float:right;
+    width: 400px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+.HYI{
+    padding-top: 100px;
+    color:white;
+    font-size: 55px;
+    width:400px;
+    margin-left: 100px;
+}
+.text01 ::before{
+    content: '';
+    display: block;
+    background: #858192;
+    width: 100px;
+    height: 1px;
+    margin-bottom: 30px;
+}
+.GYLI{
+    font-size: 14px;
+    color:#858192;
+    width: 420px;
+    margin-left: 100px; 
+    margin-top: 20px; 
+}
+#button2{
+    color: #858192;
+    margin: 30px 100px ;
+    border: 2px solid #858192;
+    width: 100px;
+    padding: 10px 30px;
+
+}
+.int-right{
+    float: right;
+    width: 400px;
+    margin-left: 400px;
+    margin-top: -580px;
+}
+.int-left{
+    float:left;
+    width: 150px;
+}
+.sec2{
+    display:flex;
+    margin-left: 30px;
+}
+.snappy{
+    width:300px;
+    margin-right: 50px;
+    font-size: 12px;
+    color: rgb(190, 190, 190)
+
+}
+.bottom{
+    margin: 50px 200px;
+}
+h4{
+    font-size: 20px;
+    margin:15px 0px;
+    color: black;
+}
+.sec3{
+    width: 900px;
+    height: 200px;
+    background-color: #2C2640;
+    margin: 100px auto;
+    display: flex;
+}
+.find{
+    font-size: 40px;
+    color: white;
+    width: 350px;
+    margin: 45px 0px 0px 70px;
+}
+.p-how{
+    float: right;
+    margin-left: 70px;
+    width: 345px;
+    margin-top: -300px;
+    margin-right: -70px;
+}
+.how{
+    color: rgb(190, 190, 190);
+    float: right;
+    margin: 70px 0px 80px 150px;
+    width: 120px;
+    border: 2px solid grey;
+    padding: 15px 25px 0px 25px;
+}
+.socicons{
+    float:right;
+}
+.foot-bar{
+    width: 1000px;
+    margin: 0px auto;
+    padding-top: 70px;
+    height: 60px;
+    border-bottom: 1px solid grey;
+}
+.footer{
+    background-color: #FAFAFA;
+    height: 400px;
+}
+.end{
+    display: flex;
+    margin: 50px auto;
+}
+.tags{
+    font-size: 14px;
+    margin-left: 170px;
+}
+.icon-b{
+    margin-right: 15px;
+}
+.upp{
+    color:#BFBFBF;
+}
+#we-diff{
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.bot ::before{
+    content: '';
+    display: block;
+    background: #818181;
+    width: 100px;
+    height: 1px;
+    margin-bottom: 40px;
+}
+.pt-foot{
+    margin-top: -180px;
+    float: left;
+    margin-left: -1000px;
+    width: 400px;
+    height: 220px;
+}
+.menu img{
+    display:none;
+}
+#mobi-left{
+    display: none;
+}
+#mobi-right{
+    display: none;
+}
+#mp-how{
+    display: none;
+}
+.mob-fam{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+        margin: auto;
+    }
+    .menu img{
+        display: block;
+        float: right;
+        height: 25px;
+        width: 25px;
+        margin-right: 30px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .mob-fam{
+        display: block;
+        width: 375px;
+        margin: 0px auto;
+    }
+    .family{
+        display: none;
+    }
+    .content{
+        height: 530px;
+        margin: 0 auto;
+        max-width: 375px;
+    }
+    .int-left{
+        display: none;
+    }
+    .int-right{
+        display: none;
+    }
+    .HYI{
+        margin-top: -170px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 47px;
+        width: 350px;
+    }
+    .text01 ::before{
+        display: none;
+    }
+    #mobi-left{
+        display: block;
+        height: 170px;
+    }
+    .GYLI{
+        font-size: 19px;
+        text-align: center;
+        width: 350px;
+        margin: 20px auto;
+        font-weight: 300px;
+    }
+    #button2{
+        font-size: 15px;
+        margin: 50px auto;
+        padding: 10px 15px 10px 25px;
+
+    }
+    #mobi-right{
+        display: block;
+        float: right;
+        margin-top: -100px;
+        width: 120px;
+    } 
+    .bottom{
+        margin: 0px auto;
+        width: 375px;
+    }
+    #we-diff{
+        text-align: center;
+        width: 350px;
+        font-size: 40px;
+        margin: 10px ;
+    }
+    .bot ::before{
+        margin: 150px 0px 30px 100px;
+        width: 150px;
+        color: #858192;
+        height: 2px;
+    }
+    .sec2{
+        display: block;
+        margin: 70px auto;
+        text-align: center;
+        width: 3750px;
+    }
+    .snappy img{
+        width: 100px;
+        margin: 30px 0px 10px 50px;
+    }
+    .mini-top{
+        font-size: 30px;
+        margin: 20px auto;
+        width: 350px;
+    }
+    .snappy p{
+        font-size: 17px;
+        width: 350px;
+        margin: 10px auto;
+    }
+    .sec3{
+        display: block;
+        width: 325px;
+        height: 325px;
+        margin: 150px auto;
+
+   }
+   .p-how{
+       display: none;
+   }
+   .find{
+      font-size: 35px;
+      text-align: center;
+      width: 250px;
+      padding-top: 50px;
+      margin-left: 30px;
+   }
+   .how{
+       margin:40px 75px ; 
+       padding-bottom: 15px;
+       padding-right: 10px;
+       font-size: 15px;
+       height: 15px;    
+   }
+   #mp-how{
+       display: block;
+       float: right;
+       margin-top: -475px;
+       margin-right: 25px;
+   }
+   .logo{
+       height: 18px;
+       margin-left: 30px;
+   }
+   .hamb{
+       height: 20px;
+   }
+   .top-bar{
+       width: 375px;
+       margin: 20px auto;
+   }
+   .footer{
+       width: 375px;
+       margin: 0px auto;
+       height: 950px;
+   }
+   .socicons{
+       display: flex;
+       float: none;
+       margin: 10px 85px;
+   }
+   .foot-bar{
+       display: block;
+       width: 325px;
+       height: 120px;
+   }
+   #ftb-img{
+       margin: 10px 100px;
+   }
+   .end{
+       display: block;
+       width: 375px;
+       margin-left: -90px;
+       text-align: center;
+   }
+   .upp{
+       margin-top: 40px;     
+   }
+}
